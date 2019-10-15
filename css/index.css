@@ -241,6 +241,32 @@ footer {
 	text-align: center;
 }
 
+@media(max-width: 800px) {
+    .circle {
+        display: none;
+    }
+    .container {
+        width: 800px;
+    }
+    nav {
+        width:800px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav a {
+        width:800px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .top {
+        width: 800px;
+    }
+    .bottom {
+        width: 800px;
+    }
+}
+
 @media(max-width: 500px) {
     .container {
       width: 500px;
