@@ -243,6 +243,39 @@ footer {
 
 @media(max-width: 500px) {
     .container {
-        background: yellow;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
     }
-}
+    nav {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }  
+    .circle {
+      display: none;
+    }  
+    nav a {
+      border: 1px solid lightgray;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }    
+    #Title {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+    .top {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+    .bottom {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
