@@ -201,7 +201,7 @@ button {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-	border-top: 1px solid black;
+	
 }
 
 .bottom {
@@ -228,11 +228,12 @@ ul {
 }
 
 address {
-	border-top: 2px solid black;
+	
 	padding: 20px;
 	display: flex;
 
 }
+
 
 footer {
 	font-size: 14px;
@@ -247,19 +248,34 @@ footer {
     }
     .container {
         width: 800px;
+        padding: 50px;       
     }
     nav {
-        width:800px;        
+        width:800px;
+        display: flex;
+        align-items: center;                
+    }
+    .middle-img {
+        width: 800px;
     }
     .top {
         width: 800px;
+        display: flex;
+        justify-content: center;
+       
     }
     .bottom {
         width: 800px;
+        display: flex;
+        align-items: center;
     }
 }
 
 @media(max-width: 500px) {
+    * {
+        width: 500px;
+        align-content: center;
+    }
     .container {
       width: 500px;
       display: flex;
@@ -268,14 +284,16 @@ footer {
     nav {
       width: 500px;
       display: flex;
-      flex-direction: column;
-      padding: 20px;
-      justify-content: center;
-    }  
+      flex-direction: column;      
+    } 
     .circle {
       display: none;
-    }  
+    }
+    .logo {
+        width: 500px;
+    }
     nav a {
+      width: 500px;
       border: 1px solid lightgray;
       display: flex;
       justify-content: center;
@@ -285,16 +303,23 @@ footer {
       width: 500px;
       display: flex;
       flex-direction: column;
+      align-items: center;
+    }
+    .middle-img {
+        width: 500px;
     }
     .top {
       width: 500px;
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
     .bottom {
       width: 500px;
       display: flex;
       flex-direction: column;
+      padding: 20px;
+      align-items: center;
     }
   }
   
